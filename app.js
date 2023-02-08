@@ -72,37 +72,3 @@ $(document).ready(function () {
   });
 });
 
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  spaceBetween: 20,
-  slidesPerGroup: 1,
-  centerSlide: "true",
-  grabCursos: "true",
-  fade: "true",
-  keyboard: {
-    enabled: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-    640: {
-      slidesPerView: 3,
-    },
-    768: {
-      slidesPerView: 4,
-    },
-    1024: {
-      slidesPerView: 5,
-    },
-  },
-});
