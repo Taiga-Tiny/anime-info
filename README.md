@@ -7,3 +7,7 @@
 # anime-info
 
 an App for Anime Info created with data from Jikan API
+
+#site
+
+https://taiga-tiny.github.io/anime-info/
